@@ -20,6 +20,9 @@ def main(argv=None):
     -------
     int
         Zero if the summary was produced successfully.
+
+    Adding this for artifacts overview
+
     """
     parser = argparse.ArgumentParser(prog="ci-course", description="Summarise a CSV file of measurements.")
     parser.add_argument("csv", nargs="?", default=None, help="the CSV file to summarise")
